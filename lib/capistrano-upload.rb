@@ -1,0 +1,1 @@
+load File.join('capistrano', 'tasks', 'upload.cap')
