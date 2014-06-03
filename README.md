@@ -25,3 +25,7 @@ cap staging deploy:upload FILES=config/locales/en.yml
 ```
 
 This will upload your locale file to the staging deployment.
+
+## Responsibility
+
+This task can be used to override files and may damage your deployment if used incorrectly. We take no responsibility for the use of this task. Use at your own risk!
