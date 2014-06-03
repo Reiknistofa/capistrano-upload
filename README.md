@@ -13,7 +13,7 @@ gem 'capistrano-upload', require: false
 And load it into your deployment script config/deploy.rb:
 
 ```ruby
-require 'capistrano-upload'
+require 'capistrano/upload'
 ```
 
 ## Usage
