@@ -10,7 +10,7 @@ Add the library to your Gemfile:
 gem 'capistrano-upload', require: false
 ```
 
-And load it into your deployment script `config/deploy.rb`:
+And load it into your Capfile:
 
 ```ruby
 require 'capistrano/upload'
